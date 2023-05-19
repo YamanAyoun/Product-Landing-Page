@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  
+  #nav-bar {
+    top: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+  }
+  .nav-link {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #header {
+    display: flex;
+  }
+  
+  
+  #container {
+    max-width: 960px;
+    margin: 20px;
+  }
+ 
+
+  .nav-link {
+      display: block;
+      color: #000000;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+      font-size: 17px;
+  }
+  
+  
+  .message-box {
+    text-align: center;
+  }
+  
+  .message-box h1 {
+    text-align: center;
+
+  }
+  
+  .message-box input {
+    display: block;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+  }
+  
+  #features {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  #how-it-work #video {
+    width: 100%;
+    height: 340px;
+  }
+  
+  #pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .price-box {
+    border: solid #333 3px;
+    border-radius: 2px;
+    text-align: center;
+  }
+
+  .bt {
+    background-color: rgb(177, 177, 45);
+    border-style: solid;
+    border-color:  rgb(177, 177, 45);
+  }
+  
+  
+  .price-box h3 {
+    background-color: rgb(122, 135, 135);
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  .price-box h2 {
+    padding: 10px;
+  }
+  
+  #main-footer {
+    background-color: #ccc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
